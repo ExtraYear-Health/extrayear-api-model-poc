@@ -1,0 +1,12 @@
+{
+    "version": "1.0",
+    "outputDirectory": "build/output",
+    "sources": ["smithy-quickstart"],
+    "plugins": {
+        "typescript-ssdk-codegen": {
+            "package": "@weather-service/server",
+            "packageVersion": "1.0.0-alpha.1",
+            "disableDefaultValidation": true
+        }
+    }
+}
